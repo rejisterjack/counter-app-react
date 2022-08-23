@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  color: #e8bd0d;
+  background: #0d0d0d;
+}
+button {
+  color: #fff;
+  padding: 5px 25px;
+  margin: 10px;
+  font-size: 20px;
+  text-transform: uppercase;
+  width: 220px;
+  border-radius: 10px;
+  background-color: #3dbe29;
+}
+button:hover {
+  background: #e21717;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.btn-container button {
+  margin-top: 20px;
+  width: 100px;
+  border-radius: 10px;
+  background: #e8bd0d;
+  border: none;
+}
+.btn-container button:hover {
+  background: #3dbe29;
+  border: none;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
